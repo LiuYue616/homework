@@ -35,6 +35,7 @@ bool Pop(Stack &t,char e)
     return true;
 }
 bool bracketmatch(Stack &t,char p[])
+//匹配括号
 {
     init(t);
     if(!Stackempty(t)) return false;
